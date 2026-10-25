@@ -1,6 +1,6 @@
 # eXmart
 
-A grocery ordering platform originally branded as Vivira Supermarket and later renamed to eXmart. This project includes a Node.js/Express backend and a React + Vite frontend for browsing products, managing a cart, placing orders, and using an admin dashboard.
+A grocery ordering platform. This project includes a Node.js/Express backend and a React + Vite frontend for browsing products, managing a cart, placing orders, and using an admin dashboard.
 
 ## Project Overview
 
@@ -44,16 +44,6 @@ The app initializes its database during startup by creating required tables and 
 ### Authentication
 
 User sessions are handled with JWT tokens. Tokens are stored in browser localStorage and sent in the Authorization header for protected requests.
-
-## Branding change
-
-The application was renamed from Vivira Supermarket to eXmart across the project. This included:
-
-- app title and footer text
-- admin branding and placeholder emails
-- localStorage keys and JWT secret naming
-- package metadata and project description
-- backend console branding
 
 ## Run locally
 
