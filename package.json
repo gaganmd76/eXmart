@@ -1,0 +1,18 @@
+{
+  "name": "exmart-workspace",
+  "version": "1.0.0",
+  "description": "eXmart Workspace — Grocery Ordering Platform",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "start:backend": "npm run start --prefix backend",
+    "start:frontend": "npm run dev --prefix frontend",
+    "start": "npx -y concurrently -k -n \"backend,frontend\" -c \"yellow,cyan\" \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "keywords": [
+    "exmart",
+    "grocery",
+    "workspace"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
